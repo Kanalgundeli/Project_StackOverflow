@@ -28,9 +28,7 @@ app.get("/", (req, res) => {
 })
 
 const PORT = process.env.PORT || 5000;
-
-process.env.CONNECTION_URL="mongodb+srv://sushil_kumar:sushil_kumar@sushil.2d6t5gf.mongodb.net/project?retryWrites=true&w=majority"
-//process.env.CONNECTION_URL="mongodb+srv://soumyajitmondal:mongoData00base@clone-database.dhxhxa6.mongodb.net/?retryWrites=true&w=majority";
+process.env.CONNECTION_URL="mongodb+srv://upadhyaysachin414:TQDl0wpQgv8oZO41@cluster0.zjbd5iq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 mongoose.set("strictQuery",true);
 
 mongoose.connect(process.env.CONNECTION_URL, {useNewUrlParser: true, useUnifiedTopology:true})
