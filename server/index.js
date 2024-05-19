@@ -28,6 +28,7 @@ app.get("/", (req, res) => {
 })
 
 const PORT = process.env.PORT || 5000;
+
 process.env.CONNECTION_URL="mongodb+srv://upadhyaysachin414:TQDl0wpQgv8oZO41@cluster0.zjbd5iq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 mongoose.set("strictQuery",true);
 
